@@ -1,0 +1,43 @@
+/* dialog */
+.popboxBg {position:absolute;width:100%;height:100%;background:#000;filter:Alpha(opacity=70);opacity:0.7;top:0;left:0;z-index:98;display:none;}
+.popbox{ border:solid 6px #e9573f; background:#eae9e9; width:469px;display:none; position:fixed; top:50%; left:50%;_position:absolute; _top:500px; z-index:99;}
+.close,.close:hover{ width:48px; height:48px;line-height: 48px;text-align: center; display:block; position:absolute; top:-6px; right:-53px;font-size:22px;color:#fff;background:#e9573f;cursor: pointer;}
+.close:hover{-moz-transform:rotate(-45deg); -webkit-transform:rotate(-45deg);transform:rotate(-45deg);}
+.popcon{ width:405px; margin:0 auto; padding:50px 0px; color:#6d6d6d; overflow:hidden;}
+
+
+/*** imgScroll ***/
+.img_scroll{position: relative; width:760px; height:120px;margin-left:50px;z-index:3;}
+.img_scroll .prev ,
+.img_scroll .next { display: block; height:30px; width: 38px; background: url(../images/lr.png) no-repeat; position: absolute; top: 50px; cursor: pointer; outline: 0; text-indent: -9999px;}
+.img_scroll .prev { background-position: 0px 0; left: -50px; }
+.img_scroll .next { background-position: -50px 0; left:770px; }
+.img_list { position: relative; overflow: hidden; width: 760px;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);box-shadow: 0 1px 3px rgba(0,0,0,.3);background: #fefefe;}
+.img_list ul { width: 9999px;padding-left: 5px;}
+.img_list li { float:left;width:140px;height:auto;padding:10px 5px;text-align:center; }
+.img_list li img {width:140px;height:auto;border:1px solid #ccc; vertical-align:top;  }
+
+/*** tabview ***/
+.mod_box{width:320px;float: left;margin-right: 30px;margin-bottom:5px;padding-left: 2px;}
+.mod_tab{border-radius: 4px;padding-top:40px;position: relative;
+background: #fefefe;-webkit-box-shadow: 0 0 3px rgba(0,0,0,.3);-moz-box-shadow: 0 0 3px rgba(0,0,0,.3);box-shadow: 0 0 3px rgba(0,0,0,.3);}
+.tab_nav{position: absolute;left:5px;top:3px;z-index:2;}
+.tab_nav li{float:left;width: 100px;height:36px;height:36px;line-height:36px;border-radius:3px 3px 0 0;margin-right:2px;background: #f36750;text-align: center;cursor:pointer;border:1px solid #f36750;}
+.tab_nav li.last{margin-right: 0;}
+.tab_nav li.current{background: #fff;border: 1px solid #f36750;border-bottom: 1px solid #fff;position: relative;bottom: -1px;}
+.tab_cont{border-top:1px solid #f36750;}
+.tab_cont .cont{height:160px;padding:10px;display: none;}
+.tab_cont .cont.current{display: block;}
+
+
+/*** 放大镜 ****/
+.glose{position: relative;width: 850px;height: 567px;}
+.retina{width:300px;height:200px;border:2px solid #054e75;cursor:url('../images/glose/blank.cur'),default;z-index:999;position:absolute;display:none;}
+.retina.chrome{cursor:url('../images/glose/blank_google_chrome.cur'),default;}
+#retina1{background:url(../images/glose/img_m01_b.jpg) no-repeat center center;}
+
+
+/*** lightbox ***/
+.mod_lightbox{padding:0 5px;background-color: #fff;-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3);-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);box-shadow: 0 1px 3px rgba(0,0,0,.3);}
+.mod_lightbox li{float: left;width: 200px;height: auto;padding: 10px 5px;text-align:center; }
+.mod_lightbox li img{width:200px;height:auto;border:1px solid #ccc; vertical-align:top; }
