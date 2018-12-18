@@ -79,20 +79,21 @@
 
 
 
-<meta name="description" content="最后效果首页，要准备一张雪碧图，如下： 然后，使用keyframes定义动画名为wings的动画。通过在不同关键帧上改变雪碧图的background－position来实现翅膀振动的效果。 123456@-webkit-keyframes wings&amp;#123;	0%,100%,24%  &amp;#123;background-position: 0 0;&amp;#125;	25%,49% &amp;#123;bac">
+<meta name="description" content="最后效果">
 <meta name="keywords" content="css3动画">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSS3实现海鸥飞翔的效果">
 <meta property="og:url" content="https://coralyan.github.io/2014/12/13/bird-fly/index.html">
 <meta property="og:site_name" content="姗姗的Blog">
-<meta property="og:description" content="最后效果首页，要准备一张雪碧图，如下： 然后，使用keyframes定义动画名为wings的动画。通过在不同关键帧上改变雪碧图的background－position来实现翅膀振动的效果。 123456@-webkit-keyframes wings&amp;#123;	0%,100%,24%  &amp;#123;background-position: 0 0;&amp;#125;	25%,49% &amp;#123;bac">
+<meta property="og:description" content="最后效果">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://coralyan.github.io/images/bird-fly/bird-fly.gif">
 <meta property="og:image" content="https://coralyan.github.io/images/bird-fly/seagull.png">
-<meta property="og:updated_time" content="2018-11-05T15:44:02.000Z">
+<meta property="og:updated_time" content="2018-11-05T16:08:10.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS3实现海鸥飞翔的效果">
-<meta name="twitter:description" content="最后效果首页，要准备一张雪碧图，如下： 然后，使用keyframes定义动画名为wings的动画。通过在不同关键帧上改变雪碧图的background－position来实现翅膀振动的效果。 123456@-webkit-keyframes wings&amp;#123;	0%,100%,24%  &amp;#123;background-position: 0 0;&amp;#125;	25%,49% &amp;#123;bac">
-<meta name="twitter:image" content="https://coralyan.github.io/images/bird-fly/seagull.png">
+<meta name="twitter:description" content="最后效果">
+<meta name="twitter:image" content="https://coralyan.github.io/images/bird-fly/bird-fly.gif">
 
 
 
@@ -344,7 +345,8 @@
       
 
       
-        <h5 id="最后效果"><a href="#最后效果" class="headerlink" title="最后效果"></a>最后效果</h5><p><img src="/images/bird-fly/seagull.png" alt=""><br>首页，要准备一张雪碧图，如下：</p>
+        <p>最后效果<br><img src="/images/bird-fly/bird-fly.gif" alt=""><br><a id="more"></a></p>
+<p>首页，要准备一张雪碧图，如下：<br><img src="/images/bird-fly/seagull.png" alt=""></p>
 <p>然后，使用<code>keyframes</code>定义动画名为wings的动画。通过在不同关键帧上改变雪碧图的<code>background－position</code>来实现翅膀振动的效果。</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@-<span class="keyword">webkit</span>-<span class="keyword">keyframes</span> wings&#123;</span><br><span class="line">	0%,100%,24%  &#123;<span class="attribute">background-position</span>: <span class="number">0</span> <span class="number">0</span>;&#125;</span><br><span class="line">	25%,49% &#123;<span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">45px</span>;&#125;</span><br><span class="line">	50%,74% &#123;<span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">90px</span>;&#125;</span><br><span class="line">	75%,99% &#123;<span class="attribute">background-position</span>: <span class="number">0</span> -<span class="number">135px</span>;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>引用动画：</p>
@@ -442,17 +444,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -467,7 +460,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -478,7 +471,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -489,7 +482,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -512,22 +505,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#最后效果"><span class="nav-number">1.</span> <span class="nav-text">最后效果</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
